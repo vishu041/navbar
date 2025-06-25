@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #0071e3;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://www.apple.com/v/iphone-15-pro/a/images/meta/iphone-15-pro_overview__f8jz7aagka2q_og.png') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.hero .links a {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #0071e3;
+  text-decoration: none;
+}
+
+.hero .links a:hover {
+  text-decoration: underline;
+}
+
+/* Sub-hero Section */
+.sub-hero {
+  background-color: #f5f5f7;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.sub-hero h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.sub-hero p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.sub-hero .links a {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #0071e3;
+  text-decoration: none;
+}
+
+.sub-hero .links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #555;
+}
